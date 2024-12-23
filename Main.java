@@ -42,7 +42,7 @@ class MathStudent extends Student {
 public class Main {
     public static void main(String[] args) {
         Student iuStudent = new IUStudent("Иванов Иван Иванович", 3, 90);
-        Student mathStudent = new MathStudent("Петров Петр Петрович", 2, 85);
+        Student mathStudent = new MathStudent("Петров Петр Петрович", 2, 75);
 
         System.out.println(iuStudent);
         iuStudent.writeExam();
